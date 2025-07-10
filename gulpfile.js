@@ -43,8 +43,8 @@ let pth = {
 		css: './src/scss/style.scss',
 		scss: './src/scss/lib/',
 		// img: './src/images/**/!(icon-*.svg|shape-*.svg)',
-		img: './src/img/!(icons){,/**}',
-		icn: './src/img/icons/**/*.svg',
+		img: './src/img/!(svg){,/**}',
+		icn: './src/img/svg/**/*.svg',
 		fnts: './src/fonts/**/*.*',
 		tmpl: './src/templates/'
 	},
@@ -52,8 +52,8 @@ let pth = {
 		html: './src/**/*.html',
 		js: ['./src/js/**/*.js','./src/blocks/**/(*.js|*.json)'],
 		css: ['./src/scss/**/*.scss','./src/blocks/**/*.scss'],
-		img: ['./src/img/**', '!./src/img/icons/**'],
-		icn: './src/img/icons/**/*.svg',
+		img: ['./src/img/**', '!./src/img/svg/**'],
+		icn: './src/img/svg/**/*.svg',
 		fnts: './src/fonts/**/*.*'
 	}
 };

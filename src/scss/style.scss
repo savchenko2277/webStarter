@@ -19,8 +19,7 @@
 @use "../../node_modules/swiper/modules/effect-fade";
 @use "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox.css";
 
-@include font-face("Helvetica", "HT", 400);
-@include font-face("TTFirsTextTrialMedium", "TT", 500);
+// @include font-face("NameOfFile", "ShortName", 400);
 
 // Browsersync mark
 #__bs_notify__ { 
