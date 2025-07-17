@@ -1,9 +1,8 @@
 :root {
-	// -- sizes -- //
 	--size: 14px;
 	--container: 1320px;
+    --min-width: 375px;
 
-	// -- colors -- //
 	--main-black: #161617;
 	--main-blue: #0D90C6;
 	--dark-blue: #0A709A;
@@ -11,7 +10,8 @@
 	--white: #fff;
 	--background: #F3F3F3;
 	--grey-yellow: #E0E0E0;
+    --text: #000;
+    --font: "Arial", sans-serif;
 
-	// -- others -- //
 	--transition: all 0.5s;
 }

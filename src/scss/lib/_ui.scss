@@ -1,3 +1,7 @@
-@use "functions.scss" as *;
-@use "variables.scss" as *;
-@use "mixins.scss" as *;
+@use "functions" as *;
+@use "variables" as *;
+@use "mixins" as mixin;
+
+img {
+    display: block;
+}
